@@ -54,7 +54,7 @@ while rval:
 
             for i in range(0, len(coolImage)):
                 if (mask[i][posToCheck]):
-                    call(["python", "MUSIC.py", "44100", str(height - i), str(0.75)])
+                    call(["python", "music.py", "44100", str(height - i), str(0.75)])
                     print "position : " + str(posToCheck) + " " + str(i) + "\n\n\n"
                     break
 
