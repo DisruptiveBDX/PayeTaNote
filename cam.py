@@ -1,6 +1,6 @@
 import cv2
 import time
-from subprocess import call
+import sys
 
 NOTES = [130.8, 146.8, 164.8, 174.6, 195.0, 220.0, 246.9, 261.6]
 SCREEN_TIME = 3000
@@ -54,8 +54,7 @@ while rval:
 
             for i in range(0, len(coolImage)):
                 if (mask[i][posToCheck]):
-                    call(["python", "music.py", "44100", str(height - i), str(0.75)])
-                    print "position : " + str(posToCheck) + " " + str(i) + "\n\n\n"
+                    sys.stdout.write(str(1 - (float(i) / height)) + "\n")
                     break
 
         lastLaserPosition = laserPosition
