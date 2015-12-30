@@ -1,0 +1,25 @@
+{
+  "name": "PayeTaNote",
+  "version": "0.1.0",
+  "description": "Play music with your body",
+  "main": "PayeTaNote.js",
+  "scripts": {
+    "test": "echo 'tests not implemented'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DisruptiveBDX/PayeTaNote"
+  },
+  "keywords": [
+    "disruptive",
+    "bdx",
+    "music",
+    "note"
+  ],
+  "author": "disruptiveBdx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DisruptiveBDX/PayeTaNote/issues"
+  },
+  "homepage": "https://github.com/DisruptiveBDX/PayeTaNote"
+}
